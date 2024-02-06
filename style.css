@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .bg-img{
     height: 100vh;
     width: 100vw;
@@ -66,5 +69,47 @@
 }
 
 .card-img {
+    border-radius: 0;
+}
+u {
+    text-decoration: underline;
+    text-decoration-color:#f8cdaa; /* Specify the color using hex code (e.g., red) */
+    text-decoration-thickness: 6px; /* Specify the thickness of the underline */
+    color: inherit; /* Inherit the color from the parent element (to keep text color intact) */
+   
+  }
+#cards2{
+    font-family: 'Lato', sans-serif;
+    border-radius: 0;
+}
+.card2{
+    width: 320px;
+    height: 395px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+}
+.card2-img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.card2-title {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.card2-img {
     border-radius: 0;
 }
